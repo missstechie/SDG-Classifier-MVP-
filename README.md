@@ -19,7 +19,7 @@ This project demonstrates how to classify text descriptions of projects to their
 - Suitable for API-based deployment
 
 - ## Limitations:
-- 
+  
 - Short SDG descriptions reduce accuracy
 - No multi-label classification yet
 - No domain-specific fine-tuning
