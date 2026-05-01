@@ -10,6 +10,20 @@ This project demonstrates how to classify text descriptions of projects to their
 - **DPG-based Dataset**: Evaluated on a simulated dataset inspired by Digital Public Goods (DPG) projects for practical relevance.
 - **Interactive UI**: A simple Colab-based interface using `ipywidgets` for easy, real-time testing of project descriptions.
 
+- ## This is a lightweight MVP of an SDG classification system.
+- 
+  Instead of training a heavy model, it uses semantic similarity via embeddings to map project descriptions to SDGs.
+  This approach is:
+- Fast
+- Low-cost
+- Suitable for API-based deployment
+
+- ## Limitations:
+- 
+- Short SDG descriptions reduce accuracy
+- No multi-label classification yet
+- No domain-specific fine-tuning
+
 ## Setup and Usage
 
 ### 1. Run the Colab Notebook
